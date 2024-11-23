@@ -1,33 +1,40 @@
-# Lobby-System für Minecraft Server ⚡
+# Minecraft Lobby System Skript 🏰🎮
 
-Willkommen zu unserem praktischen **Minecraft Lobby-System**! 🎮  
-Dieses Skript bietet eine vollständig anpassbare Lobby-Umgebung für deinen Server. Du kannst die Lobby-Position, das Scoreboard und viele weitere Features direkt über eine **`config.yml`** konfigurieren. 🛠️
+Willkommen zum **Minecraft Lobby System Skript**! Dieses Skript ermöglicht es dir, eine benutzerfreundliche und anpassbare Lobby für deinen Minecraft-Server zu erstellen. Es enthält grundlegende Funktionen wie Teleportation, Nachrichten und eine einfache Benutzeroberfläche für Spieler, die sich in der Lobby aufhalten.
 
-## Features 🚀
-- **Lobby-Wechsel** 🏃‍♂️: Wechsel zwischen verschiedenen Lobbys per Item (z.B. Enderperle).
-- **Unsichtbarkeit** 👻: Mache dich unsichtbar mit einem Item.
-- **Scoreboard** 📊: Zeigt wichtige Infos wie:
-  - Anzahl der Online-Spieler
-  - Spieler-Rang (mit Plugins wie LuckPerms)
-  - Lobby-Welt
-- **Blockabbau verhindern** 🚫: Spieler können keine Blöcke abbauen.
-- **PvP verhindern** 🛡️: Kein Schlagen in der Lobby.
-- **Willkommensnachricht** 👋: Eine freundliche Nachricht beim Betreten des Servers.
-  
-## Installation ⚙️
-1. Lade das Skript herunter und platziere es im `plugins/Script`-Ordner deines Servers.
-2. Passe die `config.yml` an, um die Lobby-Optionen zu konfigurieren:
-    - Welt, Koordinaten, Nachrichten und mehr.
-3. Starte deinen Server neu, um das Skript zu aktivieren. 💥
+## Funktionen ✨
 
-## Konfiguration 📝
-Die **`config.yml`** bietet dir alle Einstellungen zur Anpassung des Lobby-Systems. Du kannst die Lobby-Welt, die Koordinaten und viele andere Optionen nach deinen Wünschen ändern. 💡
+- **Teleporte** die Spieler in eine festgelegte Lobby 🏃‍♂️
+- **Willkommensnachrichten** für neue Spieler 👋
+- **Befehle** zum Verlassen der Lobby oder Rückkehr zum Spawn ⛔
+- **Anpassbare Lobby-Einstellungen** (Position, Nachrichten, etc.) ⚙️
+- **Einfache Installation** 🚀
 
-```yaml
-# Beispiel eines Konfigurationsabschnitts
-lobby:
-  world: "world"
-  x: 0
-  y: 64
-  z: 0
-  welcome-message: "Willkommen, %player%! Viel Spaß in der Lobby!"
+## Installation 📥
+
+1. **Skript-Datei herunterladen** 📂
+   Lade die Skript-Datei `lobby.sk` herunter und platziere sie im Ordner `plugins/Skript/scripts` auf deinem Server.
+
+2. **Server neustarten** 🔄
+   Starte deinen Minecraft-Server neu, damit das Skript geladen wird.
+
+3. **Konfiguration anpassen** 🔧
+   Öffne die Datei `config.yml` (falls vorhanden) und passe die Lobby-Position sowie die Willkommensnachricht nach deinen Wünschen an.
+
+4. **Testen** ✅
+   Betrete deinen Server und teste, ob das Skript korrekt funktioniert. Du kannst jetzt in die Lobby teleportiert werden!
+
+## Benutzung 💡
+
+- **/lobby** – Teleportiert dich zur Lobby 🏰
+- **/leave** – Verlasse die Lobby und kehre zum Spawn zurück 🚪
+- **/setlobby** – Setze die Lobby-Position an deiner aktuellen Position 🔄
+
+## Beispielbefehle 📜
+
+- **/lobby** – `Teleportiert dich zu der definierten Lobby-Position.`
+- **/setlobby** – `Setzt die Lobby-Position an deinem aktuellen Standort.`
+
+## Anpassungen 🛠️
+
+Du kannst die Lobby-Einstellungen und Nachrichten in der `config.yml` ändern:
