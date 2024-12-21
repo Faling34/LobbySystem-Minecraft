@@ -27,7 +27,6 @@ Willkommen zum **Minecraft Lobby System Skript**! Dieses Skript ermöglicht es d
 ## Benutzung 💡
 
 - **/lobby** – Teleportiert dich zur Lobby 🏰
-- **/leave** – Verlasse die Lobby und kehre zum Spawn zurück 🚪
 - **/setlobby** – Setze die Lobby-Position an deiner aktuellen Position 🔄
 
 ## Beispielbefehle 📜
